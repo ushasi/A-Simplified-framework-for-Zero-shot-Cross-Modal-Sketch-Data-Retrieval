@@ -6,13 +6,25 @@ To implement the code:
 
 <li> If needed change the path of snapshots and summary folders by changing the ‘path’ variable in Unified_XY_triads.py
 
-<li> For pretraining the X and Y modalities, get the code from the pre-training git repository and load this .mat file in the ‘UxUyLoader.py‘ file. </li>
+<li> For pretraining the X and Y modalities, get the code from the pre-training git repository and load this .mat file in the <b>UxUyLoader.py</b> file. </li>
 
 
 <li> While in the master folder, run the <b>Unified_XY_triads.py</b> file (for terminal based, type ‘python Unified_XY_triads.py’ in terminal) </li> </ol>
 
 
+### Paper
 
-<li><b>If you find this code useful, please cite the following paper: </b> </li>
+*    The paper is also available on CVF: [A Simplified Framework for Zero-shot Cross-Modal Sketch Data Retrieval](openaccess.thecvf.com/content_CVPRW_2020/papers/w8/Chaudhuri_A_Simplified_Framework_for_Zero-Shot_Cross-Modal_Sketch_Data_Retrieval_CVPRW_2020_paper.pdf)
 
-<li>Ushasi Chaudhuri, Biplab Banerjee, Avik Bhattacharya, Mihai Datcu,<a href="openaccess.thecvf.com/content_CVPRW_2020/papers/w8/Chaudhuri_A_Simplified_Framework_for_Zero-Shot_Cross-Modal_Sketch_Data_Retrieval_CVPRW_2020_paper.pdf">A Simplified Framework for Zero-shot Cross-Modal Sketch Data Retrieval</a>, The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2020. </li>
+*   Feel free to cite the author, if the work is any help to you:
+
+```
+@InProceedings{Chaudhuri_2020_CVPR_Workshops,
+author = {Chaudhuri, Ushasi and Banerjee, Biplab and Bhattacharya, Avik and Datcu, Mihai},
+title = {A Simplified Framework for Zero-Shot Cross-Modal Sketch Data Retrieval},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2020}
+} 
+
+
