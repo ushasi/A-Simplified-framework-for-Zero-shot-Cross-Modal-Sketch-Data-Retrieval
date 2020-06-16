@@ -6,7 +6,7 @@ To implement the code:
 
 <li> If needed change the path of snapshots and summary folders by changing the ‘path’ variable in Unified_XY_triads.py
 
-<li> For pretraining the X and Y modalities, get the code from the pre-training git repository and load this .mat file in the UxUyLoader.py file. </li>
+<li> For pretraining the X and Y modalities, get the code from the pre-training git repository and load this .mat file in the ‘UxUyLoader.py‘ file. </li>
 
 
 <li> While in the master folder, run the <b>Unified_XY_triads.py</b> file (for terminal based, type ‘python Unified_XY_triads.py’ in terminal) </li> </ol>
