@@ -17,6 +17,9 @@ To implement the code:
 
 <img src=image/results.png alt="Pipeline of the overall network" width="500">
 
+<li> To perform the zero-shot retrieval, run the <b>KNNcode.m</b> MATLAB file. It also provides the retrieved precision, recall and mAP values.  </li> </ol>
+
+
 
 ### Paper
 
