@@ -4,7 +4,7 @@ featsy = sketch_un;
 y = randsample(14591 , 400 ); #random query samples
 samples = y';
 q =size(samples) 
-t=64; #Dimension of the embedding space feature vectors
+t=64; %Dimension of the embedding space feature vectors
 
 clear distance; clear unified_knn;clear unified_Ind
 for i=1: q(2)       
@@ -15,9 +15,9 @@ for i=1: q(2)
         sum=0;sum2=0;
         for y=1:t
             
-            sum2 = sum2 + sqrt((featsx(x,y) -  featsy(query,y)) * (featsx(x,y) -  featsy(query,y))); # k-NN distance using l2 distance
-            %sum2 = sum2 + (abs(new_feats(x,y) -  new_feats(query,y)) ); # k-NN distance using l1 distance
-            %sum2 = sum2 + mahal(new_feats(x,:),new_feats(query,:))   # k-NN distance using Mahalanobis distance       
+            sum2 = sum2 + sqrt((featsx(x,y) -  featsy(query,y)) * (featsx(x,y) -  featsy(query,y))); % k-NN distance using l2 distance
+            %sum2 = sum2 + (abs(new_feats(x,y) -  new_feats(query,y)) ); % k-NN distance using l1 distance
+            %sum2 = sum2 + mahal(new_feats(x,:),new_feats(query,:))   % k-NN distance using Mahalanobis distance       
         end
         
         %sum2 = sqrt(sum2);
